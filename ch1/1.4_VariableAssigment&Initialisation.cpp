@@ -18,7 +18,7 @@ int main()
 
     int depth { 5 }; // Direct list Initialisation
     int height = { 5 }; // Copy list Initialisation
-    int weight{}; // Initialiser is empty (weight is 0)
+    int weight{}; // Initialiser is empty (weight is 0) (default initialisation)
 
     std::cout << width << " : width \n";
     std::cout << depth << " : depth \n";
